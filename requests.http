@@ -1,0 +1,32 @@
+### PUT /login
+PUT http://localhost:5000/login
+Authorization: Basic Ym9iOnBhc3N3b3Jk
+User-Agent: curl/7.68.0
+
+###
+
+### PUT /api/data (guest, Python-urllib)
+PUT http://localhost:5000/api/data
+Authorization: Basic Z3Vlc3Q6cGFzc3dvcmQ=
+User-Agent: Python-urllib/3.8
+
+###
+
+### PUT /api/data (john, Postman)
+PUT http://localhost:5000/api/data
+Authorization: Basic am9objpwYXNzd29yZA==
+User-Agent: PostmanRuntime/7.26.8
+
+###
+
+### DELETE /index.html (guest, curl)
+DELETE http://localhost:5000/index.html
+Authorization: Basic Z3Vlc3Q6cGFzc3dvcmQ=
+User-Agent: curl/7.68.0
+
+###
+
+### GET /index.html (bob, curl)
+GET http://localhost:5000/index.html
+Authorization: Basic Ym9iOnBhc3N3b3Jk
+User-Agent: curl/7.68.0

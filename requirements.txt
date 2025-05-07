@@ -1,0 +1,14 @@
+langchain
+sentence-transformers 
+psycopg2-binary 
+pandas 
+numpy 
+torch 
+spacy 
+requests 
+configparser 
+asyncio 
+elasticsearch 
+langchain_community 
+streamlit 
+ipywidgets

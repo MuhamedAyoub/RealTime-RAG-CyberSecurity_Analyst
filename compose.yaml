@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  flask-app:
+    build:
+      context: ./fluentd
+      dockerfile: Dockerfile
+    container_name: flask-app
+    ports:
+      - '5000:5000'
+    logging:
+      driver: 'fluentd'
+      options:
+        fluentd-address: localhost:24224
+        tag: flask.log
+    depends_on:
+      - fluentd
+      - pgvector-db
+
+  fluentd:
+    build: ./fluentd
+    container_name: fluentd
+    ports:
+      - '24224:24224'
+      - '24224:24224/udp'
+    volumes:
+      - fluentd_data:/var/lib/docker/containers:ro
+      - ./fluentd:/fluentd/etc
+    depends_on:
+      - elasticsearch
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.10
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    ports:
+      - '9200:9200'
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.17.10
+    container_name: kibana
+    ports:
+      - '5601:5601'
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    depends_on:
+      - elasticsearch
+
+  pgvector-db:
+    image: ankane/pgvector
+    container_name: pgvector-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: vectordb
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
+  fluentd_data:

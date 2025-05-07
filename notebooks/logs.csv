@@ -1,0 +1,501 @@
+timestamp,source_ip,message,event_type,severity,user,method,endpoint,user_agent
+2024-08-12T14:45:48,198.51.100.2,404 Not Found on PUT /login by bob using curl/7.68.0,http_request,medium,bob,PUT,/login,curl/7.68.0
+2024-08-12T14:45:49,172.16.0.150,500 Internal Server Error on PUT /api/data by guest using Python-urllib/3.8,http_request,high,guest,PUT,/api/data,Python-urllib/3.8
+2024-08-12T14:45:50,172.16.0.150,401 Unauthorized on PUT /api/data by john using PostmanRuntime/7.26.8,http_request,medium,john,PUT,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:45:51,192.168.1.1,401 Unauthorized on DELETE /index.html by guest using curl/7.68.0,http_request,medium,guest,DELETE,/index.html,curl/7.68.0
+2024-08-12T14:45:52,172.16.0.150,200 OK on GET /index.html by bob using curl/7.68.0,http_request,low,bob,GET,/index.html,curl/7.68.0
+2024-08-12T14:45:53,172.16.0.150,401 Unauthorized on GET /admin by bob using curl/7.68.0,http_request,medium,bob,GET,/admin,curl/7.68.0
+2024-08-12T14:45:54,198.51.100.2,500 Internal Server Error on CONNECT /index.html by bob using PostmanRuntime/7.26.8,http_request,high,bob,CONNECT,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:45:55,192.168.1.100,401 Unauthorized on OPTIONS /api/data by user using Python-urllib/3.8,http_request,medium,user,OPTIONS,/api/data,Python-urllib/3.8
+2024-08-12T14:45:56,192.168.1.100,Remote code execution attempt detected on /admin,security_alert,high,user,CONNECT,/index.html,N/A
+2024-08-12T14:45:57,172.16.0.150,200 OK on CONNECT /uploads/file1.jpg by admin using PostmanRuntime/7.26.8,http_request,low,admin,CONNECT,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:45:58,172.16.0.150,403 Forbidden on OPTIONS /api/data by root using PostmanRuntime/7.26.8,http_request,medium,root,OPTIONS,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:45:59,203.0.113.1,500 Internal Server Error on CONNECT /api/data by john using Wget/1.20.3,http_request,high,john,CONNECT,/api/data,Wget/1.20.3
+2024-08-12T14:46:00,10.0.0.150,403 Forbidden on GET /login by guest using Python-urllib/3.8,http_request,medium,guest,GET,/login,Python-urllib/3.8
+2024-08-12T14:46:01,172.16.0.1,DDoS attack pattern detected from 198.51.100.2,security_alert,high,user,OPTIONS,/uploads/file1.jpg,N/A
+2024-08-12T14:46:02,172.16.0.150,403 Forbidden on PUT /login by user using Python-urllib/3.8,http_request,medium,user,PUT,/login,Python-urllib/3.8
+2024-08-12T14:46:03,172.16.0.1,401 Unauthorized on CONNECT /index.html by admin using Python-urllib/3.8,http_request,medium,admin,CONNECT,/index.html,Python-urllib/3.8
+2024-08-12T14:46:04,172.16.0.1,500 Internal Server Error on PUT /index.html by root using curl/7.68.0,http_request,high,root,PUT,/index.html,curl/7.68.0
+2024-08-12T14:46:05,172.16.0.150,404 Not Found on PUT /uploads/file1.jpg by bob using Python-urllib/3.8,http_request,medium,bob,PUT,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:46:06,172.16.0.150,404 Not Found on PUT /login by admin using curl/7.68.0,http_request,medium,admin,PUT,/login,curl/7.68.0
+2024-08-12T14:46:07,172.16.0.1,500 Internal Server Error on PUT /uploads/file1.jpg by admin using Wget/1.20.3,http_request,high,admin,PUT,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:46:08,172.16.0.150,403 Forbidden on CONNECT /api/data by alice using Wget/1.20.3,http_request,medium,alice,CONNECT,/api/data,Wget/1.20.3
+2024-08-12T14:46:09,10.0.0.150,404 Not Found on OPTIONS /index.html by root using curl/7.68.0,http_request,medium,root,OPTIONS,/index.html,curl/7.68.0
+2024-08-12T14:46:10,10.0.0.150,404 Not Found on PUT /index.html by guest using Python-urllib/3.8,http_request,medium,guest,PUT,/index.html,Python-urllib/3.8
+2024-08-12T14:46:11,198.51.100.2,200 OK on CONNECT /index.html by user using Mozilla/5.0,http_request,low,user,CONNECT,/index.html,Mozilla/5.0
+2024-08-12T14:46:12,10.0.0.1,200 OK on PUT /admin by john using Python-urllib/3.8,http_request,low,john,PUT,/admin,Python-urllib/3.8
+2024-08-12T14:46:13,203.0.113.1,403 Forbidden on POST /login by guest using curl/7.68.0,http_request,medium,guest,POST,/login,curl/7.68.0
+2024-08-12T14:46:14,10.0.0.150,403 Forbidden on DELETE /uploads/file1.jpg by bob using Wget/1.20.3,http_request,medium,bob,DELETE,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:46:15,172.16.0.150,403 Forbidden on OPTIONS /api/data by user using Python-urllib/3.8,http_request,medium,user,OPTIONS,/api/data,Python-urllib/3.8
+2024-08-12T14:46:16,10.0.0.1,403 Forbidden on OPTIONS /login by john using Python-urllib/3.8,http_request,medium,john,OPTIONS,/login,Python-urllib/3.8
+2024-08-12T14:46:17,192.168.1.100,200 OK on OPTIONS /login by user using Mozilla/5.0,login_success,low,user,OPTIONS,/login,Mozilla/5.0
+2024-08-12T14:46:18,192.168.1.100,200 OK on POST /admin by alice using Wget/1.20.3,http_request,low,alice,POST,/admin,Wget/1.20.3
+2024-08-12T14:46:19,198.51.100.2,401 Unauthorized on CONNECT /uploads/file1.jpg by john using Wget/1.20.3,http_request,medium,john,CONNECT,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:46:20,198.51.100.2,200 OK on DELETE /api/data by guest using PostmanRuntime/7.26.8,http_request,low,guest,DELETE,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:46:21,172.16.0.150,401 Unauthorized on GET /login by user using Mozilla/5.0,http_request,medium,user,GET,/login,Mozilla/5.0
+2024-08-12T14:46:22,10.0.0.150,200 OK on POST /uploads/file1.jpg by admin using Python-urllib/3.8,http_request,low,admin,POST,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:46:23,10.0.0.150,401 Unauthorized on PUT /login by alice using Mozilla/5.0,http_request,medium,alice,PUT,/login,Mozilla/5.0
+2024-08-12T14:46:24,10.0.0.1,403 Forbidden on CONNECT /api/data by bob using Wget/1.20.3,http_request,medium,bob,CONNECT,/api/data,Wget/1.20.3
+2024-08-12T14:46:25,10.0.0.1,Brute force attack detected from 203.0.113.1,security_alert,high,guest,DELETE,/index.html,N/A
+2024-08-12T14:46:26,172.16.0.1,404 Not Found on OPTIONS /admin by user using Python-urllib/3.8,http_request,medium,user,OPTIONS,/admin,Python-urllib/3.8
+2024-08-12T14:46:27,192.168.1.1,403 Forbidden on GET /uploads/file1.jpg by john using Python-urllib/3.8,http_request,medium,john,GET,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:46:28,10.0.0.1,404 Not Found on POST /login by admin using Wget/1.20.3,http_request,medium,admin,POST,/login,Wget/1.20.3
+2024-08-12T14:46:29,10.0.0.150,500 Internal Server Error on CONNECT /admin by bob using Wget/1.20.3,http_request,high,bob,CONNECT,/admin,Wget/1.20.3
+2024-08-12T14:46:30,198.51.100.2,403 Forbidden on OPTIONS /uploads/file1.jpg by admin using Mozilla/5.0,http_request,medium,admin,OPTIONS,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:46:31,198.51.100.2,500 Internal Server Error on POST /api/data by root using Wget/1.20.3,http_request,high,root,POST,/api/data,Wget/1.20.3
+2024-08-12T14:46:32,198.51.100.2,401 Unauthorized on DELETE /login by alice using curl/7.68.0,http_request,medium,alice,DELETE,/login,curl/7.68.0
+2024-08-12T14:46:33,192.168.1.100,Brute force attack detected from 203.0.113.1,security_alert,high,admin,DELETE,/index.html,N/A
+2024-08-12T14:46:34,192.168.1.100,404 Not Found on CONNECT /index.html by user using Mozilla/5.0,http_request,medium,user,CONNECT,/index.html,Mozilla/5.0
+2024-08-12T14:46:35,10.0.0.150,403 Forbidden on POST /admin by admin using PostmanRuntime/7.26.8,http_request,medium,admin,POST,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:46:36,10.0.0.1,403 Forbidden on OPTIONS /admin by root using PostmanRuntime/7.26.8,http_request,medium,root,OPTIONS,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:46:37,172.16.0.150,Brute force attack detected from 203.0.113.1,security_alert,high,admin,POST,/index.html,N/A
+2024-08-12T14:46:38,10.0.0.1,401 Unauthorized on GET /uploads/file1.jpg by john using Mozilla/5.0,http_request,medium,john,GET,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:46:39,198.51.100.2,403 Forbidden on OPTIONS /index.html by john using PostmanRuntime/7.26.8,http_request,medium,john,OPTIONS,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:46:40,192.168.1.100,500 Internal Server Error on PUT /index.html by john using PostmanRuntime/7.26.8,http_request,high,john,PUT,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:46:41,192.168.1.100,404 Not Found on CONNECT /login by root using Wget/1.20.3,http_request,medium,root,CONNECT,/login,Wget/1.20.3
+2024-08-12T14:46:42,172.16.0.150,DDoS attack pattern detected from 198.51.100.2,security_alert,high,bob,PUT,/uploads/file1.jpg,N/A
+2024-08-12T14:46:43,172.16.0.1,401 Unauthorized on POST /login by user using PostmanRuntime/7.26.8,http_request,medium,user,POST,/login,PostmanRuntime/7.26.8
+2024-08-12T14:46:44,192.168.1.100,401 Unauthorized on CONNECT /index.html by alice using Wget/1.20.3,http_request,medium,alice,CONNECT,/index.html,Wget/1.20.3
+2024-08-12T14:46:45,10.0.0.150,404 Not Found on DELETE /admin by bob using curl/7.68.0,http_request,medium,bob,DELETE,/admin,curl/7.68.0
+2024-08-12T14:46:46,10.0.0.150,403 Forbidden on GET /uploads/file1.jpg by user using Mozilla/5.0,http_request,medium,user,GET,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:46:47,203.0.113.1,404 Not Found on CONNECT /uploads/file1.jpg by admin using Wget/1.20.3,http_request,medium,admin,CONNECT,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:46:48,198.51.100.2,500 Internal Server Error on CONNECT /uploads/file1.jpg by root using Python-urllib/3.8,http_request,high,root,CONNECT,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:46:49,10.0.0.150,DDoS attack pattern detected from 198.51.100.2,security_alert,high,john,PUT,/api/data,N/A
+2024-08-12T14:46:50,10.0.0.150,Suspicious file upload detected: /uploads/shell.php,security_alert,high,user,CONNECT,/admin,N/A
+2024-08-12T14:46:51,172.16.0.1,404 Not Found on POST /uploads/file1.jpg by admin using Python-urllib/3.8,http_request,medium,admin,POST,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:46:52,192.168.1.1,403 Forbidden on OPTIONS /login by user using curl/7.68.0,http_request,medium,user,OPTIONS,/login,curl/7.68.0
+2024-08-12T14:46:53,10.0.0.150,Remote code execution attempt detected on /admin,security_alert,high,admin,OPTIONS,/admin,N/A
+2024-08-12T14:46:54,192.168.1.1,500 Internal Server Error on DELETE /login by bob using PostmanRuntime/7.26.8,http_request,high,bob,DELETE,/login,PostmanRuntime/7.26.8
+2024-08-12T14:46:55,192.168.1.1,403 Forbidden on PUT /api/data by root using curl/7.68.0,http_request,medium,root,PUT,/api/data,curl/7.68.0
+2024-08-12T14:46:56,10.0.0.150,403 Forbidden on POST /uploads/file1.jpg by alice using Mozilla/5.0,http_request,medium,alice,POST,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:46:57,192.168.1.1,500 Internal Server Error on GET /login by admin using PostmanRuntime/7.26.8,http_request,high,admin,GET,/login,PostmanRuntime/7.26.8
+2024-08-12T14:46:58,192.168.1.100,500 Internal Server Error on POST /api/data by admin using PostmanRuntime/7.26.8,http_request,high,admin,POST,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:46:59,192.168.1.1,500 Internal Server Error on OPTIONS /login by bob using Python-urllib/3.8,http_request,high,bob,OPTIONS,/login,Python-urllib/3.8
+2024-08-12T14:47:00,192.168.1.100,401 Unauthorized on GET /login by guest using PostmanRuntime/7.26.8,http_request,medium,guest,GET,/login,PostmanRuntime/7.26.8
+2024-08-12T14:47:01,10.0.0.150,500 Internal Server Error on OPTIONS /index.html by guest using Wget/1.20.3,http_request,high,guest,OPTIONS,/index.html,Wget/1.20.3
+2024-08-12T14:47:02,10.0.0.1,200 OK on PUT /admin by alice using Wget/1.20.3,http_request,low,alice,PUT,/admin,Wget/1.20.3
+2024-08-12T14:47:03,10.0.0.1,500 Internal Server Error on DELETE /admin by root using PostmanRuntime/7.26.8,http_request,high,root,DELETE,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:47:04,203.0.113.1,500 Internal Server Error on PUT /api/data by bob using Python-urllib/3.8,http_request,high,bob,PUT,/api/data,Python-urllib/3.8
+2024-08-12T14:47:05,192.168.1.1,200 OK on DELETE /index.html by root using Python-urllib/3.8,http_request,low,root,DELETE,/index.html,Python-urllib/3.8
+2024-08-12T14:47:06,10.0.0.1,401 Unauthorized on CONNECT /admin by bob using Wget/1.20.3,http_request,medium,bob,CONNECT,/admin,Wget/1.20.3
+2024-08-12T14:47:07,172.16.0.1,500 Internal Server Error on PUT /index.html by user using PostmanRuntime/7.26.8,http_request,high,user,PUT,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:47:08,10.0.0.1,500 Internal Server Error on POST /api/data by bob using Python-urllib/3.8,http_request,high,bob,POST,/api/data,Python-urllib/3.8
+2024-08-12T14:47:09,172.16.0.150,200 OK on POST /api/data by root using Wget/1.20.3,http_request,low,root,POST,/api/data,Wget/1.20.3
+2024-08-12T14:47:10,192.168.1.1,200 OK on DELETE /admin by admin using PostmanRuntime/7.26.8,http_request,low,admin,DELETE,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:47:11,10.0.0.1,200 OK on CONNECT /uploads/file1.jpg by user using Python-urllib/3.8,http_request,low,user,CONNECT,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:47:12,172.16.0.1,500 Internal Server Error on DELETE /uploads/file1.jpg by bob using Wget/1.20.3,http_request,high,bob,DELETE,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:47:13,192.168.1.1,200 OK on CONNECT /admin by alice using curl/7.68.0,http_request,low,alice,CONNECT,/admin,curl/7.68.0
+2024-08-12T14:47:14,10.0.0.150,200 OK on POST /index.html by guest using Wget/1.20.3,http_request,low,guest,POST,/index.html,Wget/1.20.3
+2024-08-12T14:47:15,203.0.113.1,Brute force attack detected from 203.0.113.1,security_alert,high,user,PUT,/login,N/A
+2024-08-12T14:47:16,172.16.0.150,SQL Injection attempt on /login,security_alert,high,john,OPTIONS,/index.html,N/A
+2024-08-12T14:47:17,192.168.1.1,403 Forbidden on PUT /uploads/file1.jpg by admin using Mozilla/5.0,http_request,medium,admin,PUT,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:47:18,192.168.1.1,401 Unauthorized on PUT /api/data by root using Wget/1.20.3,http_request,medium,root,PUT,/api/data,Wget/1.20.3
+2024-08-12T14:47:19,192.168.1.1,Suspicious file upload detected: /uploads/shell.php,security_alert,high,guest,POST,/uploads/file1.jpg,N/A
+2024-08-12T14:47:20,198.51.100.2,404 Not Found on CONNECT /uploads/file1.jpg by alice using curl/7.68.0,http_request,medium,alice,CONNECT,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:47:21,10.0.0.1,404 Not Found on OPTIONS /admin by admin using Mozilla/5.0,http_request,medium,admin,OPTIONS,/admin,Mozilla/5.0
+2024-08-12T14:47:22,10.0.0.150,403 Forbidden on GET /admin by john using curl/7.68.0,http_request,medium,john,GET,/admin,curl/7.68.0
+2024-08-12T14:47:23,172.16.0.150,403 Forbidden on GET /login by alice using PostmanRuntime/7.26.8,http_request,medium,alice,GET,/login,PostmanRuntime/7.26.8
+2024-08-12T14:47:24,192.168.1.1,404 Not Found on OPTIONS /uploads/file1.jpg by guest using Mozilla/5.0,http_request,medium,guest,OPTIONS,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:47:25,192.168.1.1,404 Not Found on OPTIONS /admin by john using curl/7.68.0,http_request,medium,john,OPTIONS,/admin,curl/7.68.0
+2024-08-12T14:47:26,192.168.1.1,Remote code execution attempt detected on /admin,security_alert,high,guest,POST,/api/data,N/A
+2024-08-12T14:47:27,10.0.0.150,200 OK on OPTIONS /admin by john using curl/7.68.0,http_request,low,john,OPTIONS,/admin,curl/7.68.0
+2024-08-12T14:47:28,192.168.1.100,500 Internal Server Error on POST /admin by bob using curl/7.68.0,http_request,high,bob,POST,/admin,curl/7.68.0
+2024-08-12T14:47:29,172.16.0.1,200 OK on DELETE /login by admin using Mozilla/5.0,login_success,low,admin,DELETE,/login,Mozilla/5.0
+2024-08-12T14:47:30,203.0.113.1,Suspicious file upload detected: /uploads/shell.php,security_alert,high,guest,PUT,/login,N/A
+2024-08-12T14:47:31,10.0.0.150,403 Forbidden on PUT /api/data by user using Mozilla/5.0,http_request,medium,user,PUT,/api/data,Mozilla/5.0
+2024-08-12T14:47:32,203.0.113.1,401 Unauthorized on GET /api/data by root using Mozilla/5.0,http_request,medium,root,GET,/api/data,Mozilla/5.0
+2024-08-12T14:47:33,192.168.1.100,401 Unauthorized on GET /api/data by alice using Mozilla/5.0,http_request,medium,alice,GET,/api/data,Mozilla/5.0
+2024-08-12T14:47:34,192.168.1.1,500 Internal Server Error on POST /uploads/file1.jpg by admin using Wget/1.20.3,http_request,high,admin,POST,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:47:35,198.51.100.2,500 Internal Server Error on OPTIONS /admin by user using Mozilla/5.0,http_request,high,user,OPTIONS,/admin,Mozilla/5.0
+2024-08-12T14:47:36,192.168.1.100,403 Forbidden on CONNECT /admin by user using PostmanRuntime/7.26.8,http_request,medium,user,CONNECT,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:47:37,203.0.113.1,200 OK on POST /admin by bob using curl/7.68.0,http_request,low,bob,POST,/admin,curl/7.68.0
+2024-08-12T14:47:38,198.51.100.2,500 Internal Server Error on CONNECT /admin by john using Mozilla/5.0,http_request,high,john,CONNECT,/admin,Mozilla/5.0
+2024-08-12T14:47:39,192.168.1.1,403 Forbidden on PUT /login by user using Wget/1.20.3,http_request,medium,user,PUT,/login,Wget/1.20.3
+2024-08-12T14:47:40,203.0.113.1,404 Not Found on OPTIONS /api/data by bob using PostmanRuntime/7.26.8,http_request,medium,bob,OPTIONS,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:47:41,192.168.1.1,401 Unauthorized on GET /login by admin using Wget/1.20.3,http_request,medium,admin,GET,/login,Wget/1.20.3
+2024-08-12T14:47:42,203.0.113.1,403 Forbidden on DELETE /admin by john using Wget/1.20.3,http_request,medium,john,DELETE,/admin,Wget/1.20.3
+2024-08-12T14:47:43,192.168.1.1,401 Unauthorized on DELETE /admin by admin using Mozilla/5.0,http_request,medium,admin,DELETE,/admin,Mozilla/5.0
+2024-08-12T14:47:44,10.0.0.150,200 OK on POST /api/data by root using Python-urllib/3.8,http_request,low,root,POST,/api/data,Python-urllib/3.8
+2024-08-12T14:47:45,198.51.100.2,401 Unauthorized on PUT /admin by john using PostmanRuntime/7.26.8,http_request,medium,john,PUT,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:47:46,203.0.113.1,401 Unauthorized on CONNECT /login by guest using curl/7.68.0,http_request,medium,guest,CONNECT,/login,curl/7.68.0
+2024-08-12T14:47:47,192.168.1.1,500 Internal Server Error on DELETE /api/data by alice using PostmanRuntime/7.26.8,http_request,high,alice,DELETE,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:47:48,10.0.0.1,200 OK on OPTIONS /uploads/file1.jpg by bob using curl/7.68.0,http_request,low,bob,OPTIONS,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:47:49,203.0.113.1,401 Unauthorized on GET /login by alice using Python-urllib/3.8,http_request,medium,alice,GET,/login,Python-urllib/3.8
+2024-08-12T14:47:50,198.51.100.2,500 Internal Server Error on GET /index.html by root using curl/7.68.0,http_request,high,root,GET,/index.html,curl/7.68.0
+2024-08-12T14:47:51,172.16.0.1,401 Unauthorized on PUT /login by root using curl/7.68.0,http_request,medium,root,PUT,/login,curl/7.68.0
+2024-08-12T14:47:52,10.0.0.1,404 Not Found on POST /login by alice using Wget/1.20.3,http_request,medium,alice,POST,/login,Wget/1.20.3
+2024-08-12T14:47:53,192.168.1.1,Remote code execution attempt detected on /admin,security_alert,high,user,GET,/index.html,N/A
+2024-08-12T14:47:54,198.51.100.2,401 Unauthorized on POST /index.html by root using PostmanRuntime/7.26.8,http_request,medium,root,POST,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:47:55,10.0.0.1,Brute force attack detected from 203.0.113.1,security_alert,high,alice,GET,/index.html,N/A
+2024-08-12T14:47:56,192.168.1.1,500 Internal Server Error on DELETE /admin by bob using Wget/1.20.3,http_request,high,bob,DELETE,/admin,Wget/1.20.3
+2024-08-12T14:47:57,172.16.0.1,403 Forbidden on OPTIONS /uploads/file1.jpg by guest using Mozilla/5.0,http_request,medium,guest,OPTIONS,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:47:58,198.51.100.2,500 Internal Server Error on POST /api/data by user using curl/7.68.0,http_request,high,user,POST,/api/data,curl/7.68.0
+2024-08-12T14:47:59,172.16.0.150,401 Unauthorized on PUT /index.html by admin using Mozilla/5.0,http_request,medium,admin,PUT,/index.html,Mozilla/5.0
+2024-08-12T14:48:00,10.0.0.1,403 Forbidden on PUT /uploads/file1.jpg by user using Wget/1.20.3,http_request,medium,user,PUT,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:48:01,10.0.0.150,500 Internal Server Error on POST /admin by guest using Mozilla/5.0,http_request,high,guest,POST,/admin,Mozilla/5.0
+2024-08-12T14:48:02,172.16.0.150,401 Unauthorized on POST /login by bob using Wget/1.20.3,http_request,medium,bob,POST,/login,Wget/1.20.3
+2024-08-12T14:48:03,198.51.100.2,200 OK on CONNECT /uploads/file1.jpg by admin using PostmanRuntime/7.26.8,http_request,low,admin,CONNECT,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:48:04,172.16.0.1,401 Unauthorized on OPTIONS /uploads/file1.jpg by root using Mozilla/5.0,http_request,medium,root,OPTIONS,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:48:05,192.168.1.1,DDoS attack pattern detected from 198.51.100.2,security_alert,high,guest,CONNECT,/admin,N/A
+2024-08-12T14:48:06,172.16.0.150,500 Internal Server Error on CONNECT /login by root using Wget/1.20.3,http_request,high,root,CONNECT,/login,Wget/1.20.3
+2024-08-12T14:48:07,172.16.0.1,404 Not Found on OPTIONS /uploads/file1.jpg by user using curl/7.68.0,http_request,medium,user,OPTIONS,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:48:08,172.16.0.150,500 Internal Server Error on CONNECT /api/data by user using curl/7.68.0,http_request,high,user,CONNECT,/api/data,curl/7.68.0
+2024-08-12T14:48:09,203.0.113.1,403 Forbidden on POST /index.html by root using curl/7.68.0,http_request,medium,root,POST,/index.html,curl/7.68.0
+2024-08-12T14:48:10,10.0.0.150,200 OK on CONNECT /login by user using PostmanRuntime/7.26.8,login_success,low,user,CONNECT,/login,PostmanRuntime/7.26.8
+2024-08-12T14:48:11,198.51.100.2,403 Forbidden on DELETE /uploads/file1.jpg by bob using Python-urllib/3.8,http_request,medium,bob,DELETE,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:48:12,172.16.0.150,404 Not Found on OPTIONS /api/data by guest using Python-urllib/3.8,http_request,medium,guest,OPTIONS,/api/data,Python-urllib/3.8
+2024-08-12T14:48:13,192.168.1.100,200 OK on GET /admin by user using curl/7.68.0,http_request,low,user,GET,/admin,curl/7.68.0
+2024-08-12T14:48:14,10.0.0.1,404 Not Found on OPTIONS /index.html by guest using Mozilla/5.0,http_request,medium,guest,OPTIONS,/index.html,Mozilla/5.0
+2024-08-12T14:48:15,203.0.113.1,401 Unauthorized on DELETE /api/data by admin using Python-urllib/3.8,http_request,medium,admin,DELETE,/api/data,Python-urllib/3.8
+2024-08-12T14:48:16,172.16.0.150,200 OK on DELETE /uploads/file1.jpg by root using PostmanRuntime/7.26.8,http_request,low,root,DELETE,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:48:17,192.168.1.1,500 Internal Server Error on POST /uploads/file1.jpg by bob using PostmanRuntime/7.26.8,http_request,high,bob,POST,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:48:18,192.168.1.100,403 Forbidden on GET /api/data by user using PostmanRuntime/7.26.8,http_request,medium,user,GET,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:48:19,172.16.0.150,500 Internal Server Error on DELETE /index.html by user using PostmanRuntime/7.26.8,http_request,high,user,DELETE,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:48:20,192.168.1.100,403 Forbidden on POST /uploads/file1.jpg by user using curl/7.68.0,http_request,medium,user,POST,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:48:21,10.0.0.1,500 Internal Server Error on POST /login by user using Mozilla/5.0,http_request,high,user,POST,/login,Mozilla/5.0
+2024-08-12T14:48:22,198.51.100.2,Brute force attack detected from 203.0.113.1,security_alert,high,guest,OPTIONS,/login,N/A
+2024-08-12T14:48:23,172.16.0.1,404 Not Found on PUT /admin by guest using Python-urllib/3.8,http_request,medium,guest,PUT,/admin,Python-urllib/3.8
+2024-08-12T14:48:24,10.0.0.1,404 Not Found on CONNECT /index.html by root using Mozilla/5.0,http_request,medium,root,CONNECT,/index.html,Mozilla/5.0
+2024-08-12T14:48:25,172.16.0.1,403 Forbidden on DELETE /index.html by root using curl/7.68.0,http_request,medium,root,DELETE,/index.html,curl/7.68.0
+2024-08-12T14:48:26,192.168.1.1,200 OK on DELETE /uploads/file1.jpg by bob using PostmanRuntime/7.26.8,http_request,low,bob,DELETE,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:48:27,192.168.1.1,200 OK on PUT /login by john using curl/7.68.0,login_success,low,john,PUT,/login,curl/7.68.0
+2024-08-12T14:48:28,172.16.0.1,Remote code execution attempt detected on /admin,security_alert,high,bob,CONNECT,/admin,N/A
+2024-08-12T14:48:29,198.51.100.2,200 OK on CONNECT /index.html by alice using PostmanRuntime/7.26.8,http_request,low,alice,CONNECT,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:48:30,10.0.0.150,500 Internal Server Error on GET /index.html by user using Wget/1.20.3,http_request,high,user,GET,/index.html,Wget/1.20.3
+2024-08-12T14:48:31,198.51.100.2,403 Forbidden on DELETE /login by guest using curl/7.68.0,http_request,medium,guest,DELETE,/login,curl/7.68.0
+2024-08-12T14:48:32,172.16.0.150,200 OK on GET /admin by alice using Wget/1.20.3,http_request,low,alice,GET,/admin,Wget/1.20.3
+2024-08-12T14:48:33,203.0.113.1,200 OK on POST /index.html by root using PostmanRuntime/7.26.8,http_request,low,root,POST,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:48:34,203.0.113.1,401 Unauthorized on PUT /admin by bob using curl/7.68.0,http_request,medium,bob,PUT,/admin,curl/7.68.0
+2024-08-12T14:48:35,203.0.113.1,403 Forbidden on CONNECT /login by alice using curl/7.68.0,http_request,medium,alice,CONNECT,/login,curl/7.68.0
+2024-08-12T14:48:36,172.16.0.1,403 Forbidden on PUT /login by guest using Wget/1.20.3,http_request,medium,guest,PUT,/login,Wget/1.20.3
+2024-08-12T14:48:37,203.0.113.1,200 OK on POST /index.html by admin using curl/7.68.0,http_request,low,admin,POST,/index.html,curl/7.68.0
+2024-08-12T14:48:38,198.51.100.2,200 OK on OPTIONS /api/data by admin using Python-urllib/3.8,http_request,low,admin,OPTIONS,/api/data,Python-urllib/3.8
+2024-08-12T14:48:39,198.51.100.2,404 Not Found on POST /login by admin using Mozilla/5.0,http_request,medium,admin,POST,/login,Mozilla/5.0
+2024-08-12T14:48:40,172.16.0.1,500 Internal Server Error on PUT /login by user using Mozilla/5.0,http_request,high,user,PUT,/login,Mozilla/5.0
+2024-08-12T14:48:41,10.0.0.1,401 Unauthorized on GET /admin by admin using PostmanRuntime/7.26.8,http_request,medium,admin,GET,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:48:42,172.16.0.1,500 Internal Server Error on GET /uploads/file1.jpg by admin using Mozilla/5.0,http_request,high,admin,GET,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:48:43,172.16.0.1,401 Unauthorized on POST /admin by admin using PostmanRuntime/7.26.8,http_request,medium,admin,POST,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:48:44,10.0.0.1,500 Internal Server Error on GET /api/data by alice using PostmanRuntime/7.26.8,http_request,high,alice,GET,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:48:45,192.168.1.1,200 OK on POST /login by bob using Wget/1.20.3,login_success,low,bob,POST,/login,Wget/1.20.3
+2024-08-12T14:48:46,198.51.100.2,SQL Injection attempt on /login,security_alert,high,admin,DELETE,/api/data,N/A
+2024-08-12T14:48:47,172.16.0.150,200 OK on OPTIONS /uploads/file1.jpg by user using Wget/1.20.3,http_request,low,user,OPTIONS,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:48:48,172.16.0.150,403 Forbidden on OPTIONS /uploads/file1.jpg by root using Mozilla/5.0,http_request,medium,root,OPTIONS,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:48:49,192.168.1.100,500 Internal Server Error on POST /admin by user using PostmanRuntime/7.26.8,http_request,high,user,POST,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:48:50,192.168.1.1,401 Unauthorized on CONNECT /uploads/file1.jpg by alice using curl/7.68.0,http_request,medium,alice,CONNECT,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:48:51,172.16.0.150,200 OK on POST /api/data by bob using Python-urllib/3.8,http_request,low,bob,POST,/api/data,Python-urllib/3.8
+2024-08-12T14:48:52,10.0.0.1,500 Internal Server Error on PUT /uploads/file1.jpg by alice using curl/7.68.0,http_request,high,alice,PUT,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:48:53,172.16.0.1,401 Unauthorized on POST /login by guest using Wget/1.20.3,http_request,medium,guest,POST,/login,Wget/1.20.3
+2024-08-12T14:48:54,10.0.0.1,401 Unauthorized on OPTIONS /index.html by admin using Mozilla/5.0,http_request,medium,admin,OPTIONS,/index.html,Mozilla/5.0
+2024-08-12T14:48:55,10.0.0.1,403 Forbidden on DELETE /admin by john using curl/7.68.0,http_request,medium,john,DELETE,/admin,curl/7.68.0
+2024-08-12T14:48:56,10.0.0.1,404 Not Found on CONNECT /login by guest using Wget/1.20.3,http_request,medium,guest,CONNECT,/login,Wget/1.20.3
+2024-08-12T14:48:57,10.0.0.150,403 Forbidden on CONNECT /uploads/file1.jpg by root using PostmanRuntime/7.26.8,http_request,medium,root,CONNECT,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:48:58,172.16.0.150,401 Unauthorized on OPTIONS /api/data by user using Wget/1.20.3,http_request,medium,user,OPTIONS,/api/data,Wget/1.20.3
+2024-08-12T14:48:59,10.0.0.1,404 Not Found on CONNECT /api/data by root using Wget/1.20.3,http_request,medium,root,CONNECT,/api/data,Wget/1.20.3
+2024-08-12T14:49:00,198.51.100.2,401 Unauthorized on GET /login by root using curl/7.68.0,http_request,medium,root,GET,/login,curl/7.68.0
+2024-08-12T14:49:01,192.168.1.1,404 Not Found on PUT /login by root using Mozilla/5.0,http_request,medium,root,PUT,/login,Mozilla/5.0
+2024-08-12T14:49:02,10.0.0.1,401 Unauthorized on POST /index.html by guest using Wget/1.20.3,http_request,medium,guest,POST,/index.html,Wget/1.20.3
+2024-08-12T14:49:03,192.168.1.1,500 Internal Server Error on PUT /uploads/file1.jpg by admin using Python-urllib/3.8,http_request,high,admin,PUT,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:49:04,192.168.1.1,500 Internal Server Error on GET /admin by admin using Python-urllib/3.8,http_request,high,admin,GET,/admin,Python-urllib/3.8
+2024-08-12T14:49:05,172.16.0.1,401 Unauthorized on OPTIONS /login by bob using Python-urllib/3.8,http_request,medium,bob,OPTIONS,/login,Python-urllib/3.8
+2024-08-12T14:49:06,172.16.0.150,404 Not Found on CONNECT /admin by john using Mozilla/5.0,http_request,medium,john,CONNECT,/admin,Mozilla/5.0
+2024-08-12T14:49:07,192.168.1.100,403 Forbidden on POST /login by bob using curl/7.68.0,http_request,medium,bob,POST,/login,curl/7.68.0
+2024-08-12T14:49:08,172.16.0.1,404 Not Found on GET /api/data by admin using Python-urllib/3.8,http_request,medium,admin,GET,/api/data,Python-urllib/3.8
+2024-08-12T14:49:09,203.0.113.1,403 Forbidden on OPTIONS /index.html by john using PostmanRuntime/7.26.8,http_request,medium,john,OPTIONS,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:49:10,192.168.1.100,200 OK on OPTIONS /index.html by alice using Wget/1.20.3,http_request,low,alice,OPTIONS,/index.html,Wget/1.20.3
+2024-08-12T14:49:11,198.51.100.2,403 Forbidden on DELETE /admin by alice using Python-urllib/3.8,http_request,medium,alice,DELETE,/admin,Python-urllib/3.8
+2024-08-12T14:49:12,172.16.0.150,401 Unauthorized on POST /login by root using Wget/1.20.3,http_request,medium,root,POST,/login,Wget/1.20.3
+2024-08-12T14:49:13,172.16.0.1,500 Internal Server Error on POST /index.html by guest using curl/7.68.0,http_request,high,guest,POST,/index.html,curl/7.68.0
+2024-08-12T14:49:14,192.168.1.100,200 OK on OPTIONS /admin by guest using Mozilla/5.0,http_request,low,guest,OPTIONS,/admin,Mozilla/5.0
+2024-08-12T14:49:15,172.16.0.150,404 Not Found on CONNECT /login by admin using Mozilla/5.0,http_request,medium,admin,CONNECT,/login,Mozilla/5.0
+2024-08-12T14:49:16,192.168.1.1,401 Unauthorized on POST /index.html by root using Python-urllib/3.8,http_request,medium,root,POST,/index.html,Python-urllib/3.8
+2024-08-12T14:49:17,10.0.0.1,SQL Injection attempt on /login,security_alert,high,john,POST,/login,N/A
+2024-08-12T14:49:18,198.51.100.2,401 Unauthorized on GET /uploads/file1.jpg by guest using Python-urllib/3.8,http_request,medium,guest,GET,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:49:19,172.16.0.1,403 Forbidden on OPTIONS /api/data by bob using Mozilla/5.0,http_request,medium,bob,OPTIONS,/api/data,Mozilla/5.0
+2024-08-12T14:49:20,10.0.0.150,403 Forbidden on OPTIONS /uploads/file1.jpg by john using Mozilla/5.0,http_request,medium,john,OPTIONS,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:49:21,198.51.100.2,401 Unauthorized on DELETE /login by bob using Mozilla/5.0,http_request,medium,bob,DELETE,/login,Mozilla/5.0
+2024-08-12T14:49:22,192.168.1.1,200 OK on DELETE /index.html by john using PostmanRuntime/7.26.8,http_request,low,john,DELETE,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:49:23,198.51.100.2,404 Not Found on POST /admin by guest using curl/7.68.0,http_request,medium,guest,POST,/admin,curl/7.68.0
+2024-08-12T14:49:24,172.16.0.1,403 Forbidden on DELETE /admin by alice using Wget/1.20.3,http_request,medium,alice,DELETE,/admin,Wget/1.20.3
+2024-08-12T14:49:25,198.51.100.2,Brute force attack detected from 203.0.113.1,security_alert,high,admin,DELETE,/index.html,N/A
+2024-08-12T14:49:26,192.168.1.100,SQL Injection attempt on /login,security_alert,high,admin,CONNECT,/admin,N/A
+2024-08-12T14:49:27,172.16.0.150,200 OK on PUT /index.html by bob using Python-urllib/3.8,http_request,low,bob,PUT,/index.html,Python-urllib/3.8
+2024-08-12T14:49:28,172.16.0.1,403 Forbidden on GET /api/data by alice using Wget/1.20.3,http_request,medium,alice,GET,/api/data,Wget/1.20.3
+2024-08-12T14:49:29,172.16.0.150,200 OK on CONNECT /login by bob using Wget/1.20.3,login_success,low,bob,CONNECT,/login,Wget/1.20.3
+2024-08-12T14:49:30,192.168.1.1,401 Unauthorized on PUT /login by john using curl/7.68.0,http_request,medium,john,PUT,/login,curl/7.68.0
+2024-08-12T14:49:31,198.51.100.2,XSS attack attempt on /index.html,security_alert,high,user,OPTIONS,/uploads/file1.jpg,N/A
+2024-08-12T14:49:32,192.168.1.1,403 Forbidden on GET /uploads/file1.jpg by guest using curl/7.68.0,http_request,medium,guest,GET,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:49:33,198.51.100.2,404 Not Found on GET /login by guest using curl/7.68.0,http_request,medium,guest,GET,/login,curl/7.68.0
+2024-08-12T14:49:34,198.51.100.2,200 OK on DELETE /admin by john using Python-urllib/3.8,http_request,low,john,DELETE,/admin,Python-urllib/3.8
+2024-08-12T14:49:35,172.16.0.1,404 Not Found on POST /admin by bob using Wget/1.20.3,http_request,medium,bob,POST,/admin,Wget/1.20.3
+2024-08-12T14:49:36,172.16.0.150,500 Internal Server Error on POST /admin by root using PostmanRuntime/7.26.8,http_request,high,root,POST,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:49:37,192.168.1.1,404 Not Found on POST /api/data by alice using Wget/1.20.3,http_request,medium,alice,POST,/api/data,Wget/1.20.3
+2024-08-12T14:49:38,172.16.0.1,401 Unauthorized on CONNECT /uploads/file1.jpg by root using Wget/1.20.3,http_request,medium,root,CONNECT,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:49:39,203.0.113.1,403 Forbidden on OPTIONS /login by user using Mozilla/5.0,http_request,medium,user,OPTIONS,/login,Mozilla/5.0
+2024-08-12T14:49:40,172.16.0.1,401 Unauthorized on PUT /admin by admin using Mozilla/5.0,http_request,medium,admin,PUT,/admin,Mozilla/5.0
+2024-08-12T14:49:41,192.168.1.1,401 Unauthorized on POST /index.html by root using Mozilla/5.0,http_request,medium,root,POST,/index.html,Mozilla/5.0
+2024-08-12T14:49:42,203.0.113.1,500 Internal Server Error on CONNECT /login by bob using Python-urllib/3.8,http_request,high,bob,CONNECT,/login,Python-urllib/3.8
+2024-08-12T14:49:43,203.0.113.1,403 Forbidden on OPTIONS /index.html by guest using Wget/1.20.3,http_request,medium,guest,OPTIONS,/index.html,Wget/1.20.3
+2024-08-12T14:49:44,10.0.0.1,200 OK on POST /login by guest using Mozilla/5.0,login_success,low,guest,POST,/login,Mozilla/5.0
+2024-08-12T14:49:45,172.16.0.150,500 Internal Server Error on POST /admin by bob using Python-urllib/3.8,http_request,high,bob,POST,/admin,Python-urllib/3.8
+2024-08-12T14:49:46,172.16.0.1,200 OK on POST /admin by alice using Python-urllib/3.8,http_request,low,alice,POST,/admin,Python-urllib/3.8
+2024-08-12T14:49:47,172.16.0.150,401 Unauthorized on DELETE /admin by root using curl/7.68.0,http_request,medium,root,DELETE,/admin,curl/7.68.0
+2024-08-12T14:49:48,172.16.0.150,403 Forbidden on OPTIONS /uploads/file1.jpg by user using PostmanRuntime/7.26.8,http_request,medium,user,OPTIONS,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:49:49,10.0.0.150,401 Unauthorized on OPTIONS /login by root using curl/7.68.0,http_request,medium,root,OPTIONS,/login,curl/7.68.0
+2024-08-12T14:49:50,10.0.0.1,200 OK on GET /api/data by guest using Python-urllib/3.8,http_request,low,guest,GET,/api/data,Python-urllib/3.8
+2024-08-12T14:49:51,192.168.1.1,200 OK on CONNECT /login by user using Python-urllib/3.8,login_success,low,user,CONNECT,/login,Python-urllib/3.8
+2024-08-12T14:49:52,192.168.1.100,DDoS attack pattern detected from 198.51.100.2,security_alert,high,alice,POST,/admin,N/A
+2024-08-12T14:49:53,203.0.113.1,403 Forbidden on PUT /login by john using Mozilla/5.0,http_request,medium,john,PUT,/login,Mozilla/5.0
+2024-08-12T14:49:54,10.0.0.150,403 Forbidden on GET /admin by john using curl/7.68.0,http_request,medium,john,GET,/admin,curl/7.68.0
+2024-08-12T14:49:55,10.0.0.150,403 Forbidden on POST /uploads/file1.jpg by admin using PostmanRuntime/7.26.8,http_request,medium,admin,POST,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:49:56,172.16.0.1,403 Forbidden on POST /api/data by admin using curl/7.68.0,http_request,medium,admin,POST,/api/data,curl/7.68.0
+2024-08-12T14:49:57,10.0.0.150,404 Not Found on GET /index.html by admin using Python-urllib/3.8,http_request,medium,admin,GET,/index.html,Python-urllib/3.8
+2024-08-12T14:49:58,192.168.1.1,404 Not Found on CONNECT /admin by john using Python-urllib/3.8,http_request,medium,john,CONNECT,/admin,Python-urllib/3.8
+2024-08-12T14:49:59,192.168.1.100,404 Not Found on POST /uploads/file1.jpg by root using Mozilla/5.0,http_request,medium,root,POST,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:50:00,10.0.0.1,500 Internal Server Error on DELETE /index.html by alice using curl/7.68.0,http_request,high,alice,DELETE,/index.html,curl/7.68.0
+2024-08-12T14:50:01,172.16.0.1,403 Forbidden on POST /api/data by user using curl/7.68.0,http_request,medium,user,POST,/api/data,curl/7.68.0
+2024-08-12T14:50:02,172.16.0.150,500 Internal Server Error on PUT /admin by john using Wget/1.20.3,http_request,high,john,PUT,/admin,Wget/1.20.3
+2024-08-12T14:50:03,10.0.0.1,200 OK on PUT /uploads/file1.jpg by root using Python-urllib/3.8,http_request,low,root,PUT,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:50:04,172.16.0.1,403 Forbidden on PUT /api/data by root using Mozilla/5.0,http_request,medium,root,PUT,/api/data,Mozilla/5.0
+2024-08-12T14:50:05,203.0.113.1,401 Unauthorized on GET /uploads/file1.jpg by bob using Mozilla/5.0,http_request,medium,bob,GET,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:50:06,172.16.0.150,403 Forbidden on CONNECT /index.html by admin using Mozilla/5.0,http_request,medium,admin,CONNECT,/index.html,Mozilla/5.0
+2024-08-12T14:50:07,192.168.1.1,404 Not Found on POST /uploads/file1.jpg by guest using curl/7.68.0,http_request,medium,guest,POST,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:50:08,10.0.0.1,401 Unauthorized on DELETE /index.html by admin using Wget/1.20.3,http_request,medium,admin,DELETE,/index.html,Wget/1.20.3
+2024-08-12T14:50:09,192.168.1.1,500 Internal Server Error on PUT /admin by bob using Wget/1.20.3,http_request,high,bob,PUT,/admin,Wget/1.20.3
+2024-08-12T14:50:10,192.168.1.1,200 OK on GET /uploads/file1.jpg by user using PostmanRuntime/7.26.8,http_request,low,user,GET,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:50:11,172.16.0.1,404 Not Found on DELETE /api/data by bob using Python-urllib/3.8,http_request,medium,bob,DELETE,/api/data,Python-urllib/3.8
+2024-08-12T14:50:12,192.168.1.100,200 OK on CONNECT /uploads/file1.jpg by guest using Wget/1.20.3,http_request,low,guest,CONNECT,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:50:13,172.16.0.150,404 Not Found on PUT /api/data by guest using curl/7.68.0,http_request,medium,guest,PUT,/api/data,curl/7.68.0
+2024-08-12T14:50:14,192.168.1.100,403 Forbidden on PUT /api/data by admin using Wget/1.20.3,http_request,medium,admin,PUT,/api/data,Wget/1.20.3
+2024-08-12T14:50:15,10.0.0.150,403 Forbidden on DELETE /admin by alice using curl/7.68.0,http_request,medium,alice,DELETE,/admin,curl/7.68.0
+2024-08-12T14:50:16,203.0.113.1,500 Internal Server Error on DELETE /login by admin using curl/7.68.0,http_request,high,admin,DELETE,/login,curl/7.68.0
+2024-08-12T14:50:17,10.0.0.150,200 OK on CONNECT /admin by alice using curl/7.68.0,http_request,low,alice,CONNECT,/admin,curl/7.68.0
+2024-08-12T14:50:18,172.16.0.150,403 Forbidden on CONNECT /api/data by admin using Mozilla/5.0,http_request,medium,admin,CONNECT,/api/data,Mozilla/5.0
+2024-08-12T14:50:19,203.0.113.1,Brute force attack detected from 203.0.113.1,security_alert,high,admin,DELETE,/uploads/file1.jpg,N/A
+2024-08-12T14:50:20,172.16.0.1,200 OK on CONNECT /index.html by user using Python-urllib/3.8,http_request,low,user,CONNECT,/index.html,Python-urllib/3.8
+2024-08-12T14:50:21,172.16.0.1,403 Forbidden on DELETE /admin by alice using Wget/1.20.3,http_request,medium,alice,DELETE,/admin,Wget/1.20.3
+2024-08-12T14:50:22,192.168.1.100,200 OK on POST /admin by alice using Mozilla/5.0,http_request,low,alice,POST,/admin,Mozilla/5.0
+2024-08-12T14:50:23,198.51.100.2,401 Unauthorized on OPTIONS /uploads/file1.jpg by guest using Python-urllib/3.8,http_request,medium,guest,OPTIONS,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:50:24,203.0.113.1,401 Unauthorized on POST /login by admin using Python-urllib/3.8,http_request,medium,admin,POST,/login,Python-urllib/3.8
+2024-08-12T14:50:25,203.0.113.1,404 Not Found on POST /admin by bob using PostmanRuntime/7.26.8,http_request,medium,bob,POST,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:50:26,192.168.1.100,200 OK on PUT /login by guest using Wget/1.20.3,login_success,low,guest,PUT,/login,Wget/1.20.3
+2024-08-12T14:50:27,10.0.0.1,401 Unauthorized on DELETE /index.html by john using Python-urllib/3.8,http_request,medium,john,DELETE,/index.html,Python-urllib/3.8
+2024-08-12T14:50:28,192.168.1.1,200 OK on PUT /uploads/file1.jpg by bob using PostmanRuntime/7.26.8,http_request,low,bob,PUT,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:50:29,10.0.0.150,200 OK on DELETE /admin by bob using Python-urllib/3.8,http_request,low,bob,DELETE,/admin,Python-urllib/3.8
+2024-08-12T14:50:30,172.16.0.150,500 Internal Server Error on DELETE /admin by john using Wget/1.20.3,http_request,high,john,DELETE,/admin,Wget/1.20.3
+2024-08-12T14:50:31,203.0.113.1,200 OK on DELETE /admin by admin using Python-urllib/3.8,http_request,low,admin,DELETE,/admin,Python-urllib/3.8
+2024-08-12T14:50:32,198.51.100.2,401 Unauthorized on POST /login by admin using PostmanRuntime/7.26.8,http_request,medium,admin,POST,/login,PostmanRuntime/7.26.8
+2024-08-12T14:50:33,10.0.0.150,200 OK on PUT /admin by user using curl/7.68.0,http_request,low,user,PUT,/admin,curl/7.68.0
+2024-08-12T14:50:34,203.0.113.1,403 Forbidden on POST /api/data by guest using Python-urllib/3.8,http_request,medium,guest,POST,/api/data,Python-urllib/3.8
+2024-08-12T14:50:35,172.16.0.1,403 Forbidden on GET /uploads/file1.jpg by admin using Wget/1.20.3,http_request,medium,admin,GET,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:50:36,198.51.100.2,500 Internal Server Error on POST /login by guest using Mozilla/5.0,http_request,high,guest,POST,/login,Mozilla/5.0
+2024-08-12T14:50:37,192.168.1.1,200 OK on POST /login by user using Mozilla/5.0,login_success,low,user,POST,/login,Mozilla/5.0
+2024-08-12T14:50:38,203.0.113.1,500 Internal Server Error on CONNECT /admin by bob using PostmanRuntime/7.26.8,http_request,high,bob,CONNECT,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:50:39,203.0.113.1,403 Forbidden on POST /login by admin using curl/7.68.0,http_request,medium,admin,POST,/login,curl/7.68.0
+2024-08-12T14:50:40,198.51.100.2,500 Internal Server Error on GET /admin by user using Wget/1.20.3,http_request,high,user,GET,/admin,Wget/1.20.3
+2024-08-12T14:50:41,172.16.0.150,SQL Injection attempt on /login,security_alert,high,bob,PUT,/api/data,N/A
+2024-08-12T14:50:42,10.0.0.150,404 Not Found on OPTIONS /api/data by guest using Wget/1.20.3,http_request,medium,guest,OPTIONS,/api/data,Wget/1.20.3
+2024-08-12T14:50:43,198.51.100.2,401 Unauthorized on GET /index.html by alice using Mozilla/5.0,http_request,medium,alice,GET,/index.html,Mozilla/5.0
+2024-08-12T14:50:44,10.0.0.150,500 Internal Server Error on DELETE /admin by bob using Python-urllib/3.8,http_request,high,bob,DELETE,/admin,Python-urllib/3.8
+2024-08-12T14:50:45,10.0.0.1,200 OK on OPTIONS /admin by bob using Mozilla/5.0,http_request,low,bob,OPTIONS,/admin,Mozilla/5.0
+2024-08-12T14:50:46,203.0.113.1,403 Forbidden on CONNECT /admin by bob using Mozilla/5.0,http_request,medium,bob,CONNECT,/admin,Mozilla/5.0
+2024-08-12T14:50:47,198.51.100.2,200 OK on CONNECT /uploads/file1.jpg by guest using Python-urllib/3.8,http_request,low,guest,CONNECT,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:50:48,192.168.1.1,401 Unauthorized on GET /uploads/file1.jpg by john using Mozilla/5.0,http_request,medium,john,GET,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:50:49,172.16.0.1,404 Not Found on POST /admin by user using Wget/1.20.3,http_request,medium,user,POST,/admin,Wget/1.20.3
+2024-08-12T14:50:50,192.168.1.1,403 Forbidden on DELETE /api/data by root using Mozilla/5.0,http_request,medium,root,DELETE,/api/data,Mozilla/5.0
+2024-08-12T14:50:51,192.168.1.1,500 Internal Server Error on OPTIONS /admin by bob using Python-urllib/3.8,http_request,high,bob,OPTIONS,/admin,Python-urllib/3.8
+2024-08-12T14:50:52,172.16.0.1,XSS attack attempt on /index.html,security_alert,high,bob,OPTIONS,/index.html,N/A
+2024-08-12T14:50:53,172.16.0.1,500 Internal Server Error on POST /admin by john using PostmanRuntime/7.26.8,http_request,high,john,POST,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:50:54,203.0.113.1,200 OK on CONNECT /admin by bob using curl/7.68.0,http_request,low,bob,CONNECT,/admin,curl/7.68.0
+2024-08-12T14:50:55,10.0.0.1,500 Internal Server Error on DELETE /login by root using curl/7.68.0,http_request,high,root,DELETE,/login,curl/7.68.0
+2024-08-12T14:50:56,10.0.0.150,500 Internal Server Error on DELETE /uploads/file1.jpg by bob using curl/7.68.0,http_request,high,bob,DELETE,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:50:57,10.0.0.1,200 OK on PUT /api/data by admin using Python-urllib/3.8,http_request,low,admin,PUT,/api/data,Python-urllib/3.8
+2024-08-12T14:50:58,192.168.1.1,403 Forbidden on CONNECT /login by john using Mozilla/5.0,http_request,medium,john,CONNECT,/login,Mozilla/5.0
+2024-08-12T14:50:59,172.16.0.1,404 Not Found on DELETE /admin by bob using curl/7.68.0,http_request,medium,bob,DELETE,/admin,curl/7.68.0
+2024-08-12T14:51:00,10.0.0.1,200 OK on GET /api/data by root using PostmanRuntime/7.26.8,http_request,low,root,GET,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:51:01,172.16.0.1,200 OK on PUT /login by admin using curl/7.68.0,login_success,low,admin,PUT,/login,curl/7.68.0
+2024-08-12T14:51:02,10.0.0.1,200 OK on CONNECT /admin by user using Python-urllib/3.8,http_request,low,user,CONNECT,/admin,Python-urllib/3.8
+2024-08-12T14:51:03,192.168.1.100,401 Unauthorized on OPTIONS /login by guest using curl/7.68.0,http_request,medium,guest,OPTIONS,/login,curl/7.68.0
+2024-08-12T14:51:04,192.168.1.1,403 Forbidden on POST /api/data by user using Python-urllib/3.8,http_request,medium,user,POST,/api/data,Python-urllib/3.8
+2024-08-12T14:51:05,192.168.1.1,XSS attack attempt on /index.html,security_alert,high,alice,CONNECT,/api/data,N/A
+2024-08-12T14:51:06,172.16.0.1,403 Forbidden on DELETE /admin by user using Wget/1.20.3,http_request,medium,user,DELETE,/admin,Wget/1.20.3
+2024-08-12T14:51:07,192.168.1.1,XSS attack attempt on /index.html,security_alert,high,guest,PUT,/api/data,N/A
+2024-08-12T14:51:08,192.168.1.100,Brute force attack detected from 203.0.113.1,security_alert,high,guest,POST,/login,N/A
+2024-08-12T14:51:09,172.16.0.1,403 Forbidden on CONNECT /api/data by guest using Python-urllib/3.8,http_request,medium,guest,CONNECT,/api/data,Python-urllib/3.8
+2024-08-12T14:51:10,192.168.1.100,200 OK on DELETE /uploads/file1.jpg by bob using curl/7.68.0,http_request,low,bob,DELETE,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:51:11,192.168.1.1,403 Forbidden on OPTIONS /admin by guest using Mozilla/5.0,http_request,medium,guest,OPTIONS,/admin,Mozilla/5.0
+2024-08-12T14:51:12,192.168.1.1,200 OK on POST /admin by user using curl/7.68.0,http_request,low,user,POST,/admin,curl/7.68.0
+2024-08-12T14:51:13,10.0.0.1,404 Not Found on OPTIONS /index.html by alice using Python-urllib/3.8,http_request,medium,alice,OPTIONS,/index.html,Python-urllib/3.8
+2024-08-12T14:51:14,172.16.0.150,404 Not Found on OPTIONS /login by user using Python-urllib/3.8,http_request,medium,user,OPTIONS,/login,Python-urllib/3.8
+2024-08-12T14:51:15,192.168.1.100,DDoS attack pattern detected from 198.51.100.2,security_alert,high,guest,POST,/admin,N/A
+2024-08-12T14:51:16,172.16.0.150,401 Unauthorized on CONNECT /api/data by guest using Python-urllib/3.8,http_request,medium,guest,CONNECT,/api/data,Python-urllib/3.8
+2024-08-12T14:51:17,10.0.0.150,500 Internal Server Error on POST /api/data by root using Python-urllib/3.8,http_request,high,root,POST,/api/data,Python-urllib/3.8
+2024-08-12T14:51:18,10.0.0.1,401 Unauthorized on OPTIONS /admin by admin using Python-urllib/3.8,http_request,medium,admin,OPTIONS,/admin,Python-urllib/3.8
+2024-08-12T14:51:19,172.16.0.150,200 OK on PUT /admin by admin using PostmanRuntime/7.26.8,http_request,low,admin,PUT,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:51:20,10.0.0.1,500 Internal Server Error on OPTIONS /admin by bob using Python-urllib/3.8,http_request,high,bob,OPTIONS,/admin,Python-urllib/3.8
+2024-08-12T14:51:21,192.168.1.100,401 Unauthorized on GET /api/data by alice using Python-urllib/3.8,http_request,medium,alice,GET,/api/data,Python-urllib/3.8
+2024-08-12T14:51:22,198.51.100.2,Suspicious file upload detected: /uploads/shell.php,security_alert,high,alice,POST,/login,N/A
+2024-08-12T14:51:23,192.168.1.1,200 OK on PUT /index.html by guest using PostmanRuntime/7.26.8,http_request,low,guest,PUT,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:51:24,10.0.0.1,404 Not Found on PUT /api/data by user using curl/7.68.0,http_request,medium,user,PUT,/api/data,curl/7.68.0
+2024-08-12T14:51:25,198.51.100.2,500 Internal Server Error on GET /uploads/file1.jpg by alice using PostmanRuntime/7.26.8,http_request,high,alice,GET,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:51:26,192.168.1.1,SQL Injection attempt on /login,security_alert,high,alice,GET,/uploads/file1.jpg,N/A
+2024-08-12T14:51:27,172.16.0.1,Brute force attack detected from 203.0.113.1,security_alert,high,guest,OPTIONS,/admin,N/A
+2024-08-12T14:51:28,192.168.1.1,Suspicious file upload detected: /uploads/shell.php,security_alert,high,guest,POST,/admin,N/A
+2024-08-12T14:51:29,10.0.0.150,401 Unauthorized on GET /login by bob using Python-urllib/3.8,http_request,medium,bob,GET,/login,Python-urllib/3.8
+2024-08-12T14:51:30,172.16.0.1,200 OK on OPTIONS /login by user using Wget/1.20.3,login_success,low,user,OPTIONS,/login,Wget/1.20.3
+2024-08-12T14:51:31,172.16.0.150,500 Internal Server Error on GET /index.html by user using curl/7.68.0,http_request,high,user,GET,/index.html,curl/7.68.0
+2024-08-12T14:51:32,172.16.0.150,401 Unauthorized on POST /api/data by alice using curl/7.68.0,http_request,medium,alice,POST,/api/data,curl/7.68.0
+2024-08-12T14:51:33,10.0.0.150,200 OK on OPTIONS /login by john using PostmanRuntime/7.26.8,login_success,low,john,OPTIONS,/login,PostmanRuntime/7.26.8
+2024-08-12T14:51:34,192.168.1.1,Remote code execution attempt detected on /admin,security_alert,high,user,CONNECT,/admin,N/A
+2024-08-12T14:51:35,198.51.100.2,200 OK on CONNECT /uploads/file1.jpg by user using PostmanRuntime/7.26.8,http_request,low,user,CONNECT,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:51:36,203.0.113.1,500 Internal Server Error on PUT /uploads/file1.jpg by bob using Mozilla/5.0,http_request,high,bob,PUT,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:51:37,10.0.0.150,404 Not Found on DELETE /api/data by guest using PostmanRuntime/7.26.8,http_request,medium,guest,DELETE,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:51:38,192.168.1.1,500 Internal Server Error on CONNECT /api/data by bob using Wget/1.20.3,http_request,high,bob,CONNECT,/api/data,Wget/1.20.3
+2024-08-12T14:51:39,172.16.0.1,500 Internal Server Error on CONNECT /index.html by bob using Python-urllib/3.8,http_request,high,bob,CONNECT,/index.html,Python-urllib/3.8
+2024-08-12T14:51:40,10.0.0.150,200 OK on DELETE /uploads/file1.jpg by user using Python-urllib/3.8,http_request,low,user,DELETE,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:51:41,10.0.0.150,200 OK on POST /api/data by john using Python-urllib/3.8,http_request,low,john,POST,/api/data,Python-urllib/3.8
+2024-08-12T14:51:42,172.16.0.1,403 Forbidden on DELETE /index.html by user using Mozilla/5.0,http_request,medium,user,DELETE,/index.html,Mozilla/5.0
+2024-08-12T14:51:43,192.168.1.1,500 Internal Server Error on GET /index.html by alice using Python-urllib/3.8,http_request,high,alice,GET,/index.html,Python-urllib/3.8
+2024-08-12T14:51:44,10.0.0.1,500 Internal Server Error on DELETE /uploads/file1.jpg by guest using PostmanRuntime/7.26.8,http_request,high,guest,DELETE,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:51:45,10.0.0.1,200 OK on OPTIONS /uploads/file1.jpg by user using Wget/1.20.3,http_request,low,user,OPTIONS,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:51:46,172.16.0.1,500 Internal Server Error on OPTIONS /login by root using PostmanRuntime/7.26.8,http_request,high,root,OPTIONS,/login,PostmanRuntime/7.26.8
+2024-08-12T14:51:47,192.168.1.100,500 Internal Server Error on OPTIONS /login by root using Mozilla/5.0,http_request,high,root,OPTIONS,/login,Mozilla/5.0
+2024-08-12T14:51:48,192.168.1.1,404 Not Found on GET /api/data by root using curl/7.68.0,http_request,medium,root,GET,/api/data,curl/7.68.0
+2024-08-12T14:51:49,10.0.0.1,404 Not Found on OPTIONS /index.html by user using PostmanRuntime/7.26.8,http_request,medium,user,OPTIONS,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:51:50,192.168.1.1,Suspicious file upload detected: /uploads/shell.php,security_alert,high,root,DELETE,/admin,N/A
+2024-08-12T14:51:51,172.16.0.1,404 Not Found on CONNECT /login by guest using Wget/1.20.3,http_request,medium,guest,CONNECT,/login,Wget/1.20.3
+2024-08-12T14:51:52,10.0.0.1,404 Not Found on OPTIONS /admin by root using Wget/1.20.3,http_request,medium,root,OPTIONS,/admin,Wget/1.20.3
+2024-08-12T14:51:53,10.0.0.150,500 Internal Server Error on OPTIONS /api/data by john using Mozilla/5.0,http_request,high,john,OPTIONS,/api/data,Mozilla/5.0
+2024-08-12T14:51:54,198.51.100.2,200 OK on CONNECT /login by alice using Wget/1.20.3,login_success,low,alice,CONNECT,/login,Wget/1.20.3
+2024-08-12T14:51:55,10.0.0.1,404 Not Found on DELETE /api/data by root using Python-urllib/3.8,http_request,medium,root,DELETE,/api/data,Python-urllib/3.8
+2024-08-12T14:51:56,10.0.0.150,403 Forbidden on PUT /login by alice using Python-urllib/3.8,http_request,medium,alice,PUT,/login,Python-urllib/3.8
+2024-08-12T14:51:57,172.16.0.150,404 Not Found on GET /uploads/file1.jpg by alice using PostmanRuntime/7.26.8,http_request,medium,alice,GET,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:51:58,192.168.1.1,200 OK on GET /login by user using PostmanRuntime/7.26.8,login_success,low,user,GET,/login,PostmanRuntime/7.26.8
+2024-08-12T14:51:59,203.0.113.1,Suspicious file upload detected: /uploads/shell.php,security_alert,high,john,CONNECT,/api/data,N/A
+2024-08-12T14:52:00,10.0.0.1,401 Unauthorized on POST /index.html by admin using PostmanRuntime/7.26.8,http_request,medium,admin,POST,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:52:01,192.168.1.100,200 OK on OPTIONS /api/data by guest using PostmanRuntime/7.26.8,http_request,low,guest,OPTIONS,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:52:02,192.168.1.100,Remote code execution attempt detected on /admin,security_alert,high,root,GET,/api/data,N/A
+2024-08-12T14:52:03,10.0.0.1,404 Not Found on DELETE /uploads/file1.jpg by guest using PostmanRuntime/7.26.8,http_request,medium,guest,DELETE,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:52:04,172.16.0.1,500 Internal Server Error on CONNECT /uploads/file1.jpg by admin using Mozilla/5.0,http_request,high,admin,CONNECT,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:52:05,198.51.100.2,500 Internal Server Error on PUT /uploads/file1.jpg by user using Wget/1.20.3,http_request,high,user,PUT,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:52:06,198.51.100.2,XSS attack attempt on /index.html,security_alert,high,john,DELETE,/api/data,N/A
+2024-08-12T14:52:07,172.16.0.1,Brute force attack detected from 203.0.113.1,security_alert,high,bob,PUT,/api/data,N/A
+2024-08-12T14:52:08,10.0.0.150,401 Unauthorized on POST /uploads/file1.jpg by root using Wget/1.20.3,http_request,medium,root,POST,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:52:09,172.16.0.150,200 OK on CONNECT /admin by alice using Mozilla/5.0,http_request,low,alice,CONNECT,/admin,Mozilla/5.0
+2024-08-12T14:52:10,172.16.0.150,200 OK on POST /admin by user using Mozilla/5.0,http_request,low,user,POST,/admin,Mozilla/5.0
+2024-08-12T14:52:11,172.16.0.1,404 Not Found on CONNECT /index.html by alice using curl/7.68.0,http_request,medium,alice,CONNECT,/index.html,curl/7.68.0
+2024-08-12T14:52:12,203.0.113.1,401 Unauthorized on PUT /uploads/file1.jpg by admin using curl/7.68.0,http_request,medium,admin,PUT,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:52:13,192.168.1.100,Suspicious file upload detected: /uploads/shell.php,security_alert,high,guest,DELETE,/uploads/file1.jpg,N/A
+2024-08-12T14:52:14,192.168.1.1,401 Unauthorized on POST /login by guest using curl/7.68.0,http_request,medium,guest,POST,/login,curl/7.68.0
+2024-08-12T14:52:15,203.0.113.1,404 Not Found on CONNECT /api/data by alice using Wget/1.20.3,http_request,medium,alice,CONNECT,/api/data,Wget/1.20.3
+2024-08-12T14:52:16,172.16.0.150,403 Forbidden on POST /admin by john using Mozilla/5.0,http_request,medium,john,POST,/admin,Mozilla/5.0
+2024-08-12T14:52:17,192.168.1.1,404 Not Found on OPTIONS /admin by guest using PostmanRuntime/7.26.8,http_request,medium,guest,OPTIONS,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:52:18,192.168.1.1,404 Not Found on GET /login by admin using curl/7.68.0,http_request,medium,admin,GET,/login,curl/7.68.0
+2024-08-12T14:52:19,192.168.1.100,404 Not Found on DELETE /uploads/file1.jpg by john using PostmanRuntime/7.26.8,http_request,medium,john,DELETE,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:52:20,192.168.1.1,XSS attack attempt on /index.html,security_alert,high,john,POST,/admin,N/A
+2024-08-12T14:52:21,203.0.113.1,500 Internal Server Error on PUT /uploads/file1.jpg by john using PostmanRuntime/7.26.8,http_request,high,john,PUT,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:52:22,10.0.0.1,DDoS attack pattern detected from 198.51.100.2,security_alert,high,alice,OPTIONS,/uploads/file1.jpg,N/A
+2024-08-12T14:52:23,10.0.0.1,404 Not Found on OPTIONS /index.html by bob using PostmanRuntime/7.26.8,http_request,medium,bob,OPTIONS,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:52:24,10.0.0.1,403 Forbidden on OPTIONS /admin by admin using Mozilla/5.0,http_request,medium,admin,OPTIONS,/admin,Mozilla/5.0
+2024-08-12T14:52:25,172.16.0.150,500 Internal Server Error on DELETE /api/data by guest using Mozilla/5.0,http_request,high,guest,DELETE,/api/data,Mozilla/5.0
+2024-08-12T14:52:26,203.0.113.1,500 Internal Server Error on POST /login by user using PostmanRuntime/7.26.8,http_request,high,user,POST,/login,PostmanRuntime/7.26.8
+2024-08-12T14:52:27,172.16.0.1,200 OK on CONNECT /login by alice using Python-urllib/3.8,login_success,low,alice,CONNECT,/login,Python-urllib/3.8
+2024-08-12T14:52:28,172.16.0.1,Brute force attack detected from 203.0.113.1,security_alert,high,bob,PUT,/uploads/file1.jpg,N/A
+2024-08-12T14:52:29,192.168.1.100,200 OK on OPTIONS /admin by alice using curl/7.68.0,http_request,low,alice,OPTIONS,/admin,curl/7.68.0
+2024-08-12T14:52:30,203.0.113.1,404 Not Found on OPTIONS /api/data by user using Python-urllib/3.8,http_request,medium,user,OPTIONS,/api/data,Python-urllib/3.8
+2024-08-12T14:52:31,172.16.0.1,404 Not Found on OPTIONS /api/data by alice using PostmanRuntime/7.26.8,http_request,medium,alice,OPTIONS,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:52:32,198.51.100.2,500 Internal Server Error on PUT /api/data by bob using curl/7.68.0,http_request,high,bob,PUT,/api/data,curl/7.68.0
+2024-08-12T14:52:33,192.168.1.100,500 Internal Server Error on POST /login by bob using curl/7.68.0,http_request,high,bob,POST,/login,curl/7.68.0
+2024-08-12T14:52:34,172.16.0.150,200 OK on DELETE /login by admin using PostmanRuntime/7.26.8,login_success,low,admin,DELETE,/login,PostmanRuntime/7.26.8
+2024-08-12T14:52:35,172.16.0.1,500 Internal Server Error on GET /index.html by user using PostmanRuntime/7.26.8,http_request,high,user,GET,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:52:36,192.168.1.1,200 OK on GET /admin by alice using PostmanRuntime/7.26.8,http_request,low,alice,GET,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:52:37,10.0.0.1,401 Unauthorized on PUT /login by admin using Mozilla/5.0,http_request,medium,admin,PUT,/login,Mozilla/5.0
+2024-08-12T14:52:38,10.0.0.150,401 Unauthorized on CONNECT /index.html by user using Wget/1.20.3,http_request,medium,user,CONNECT,/index.html,Wget/1.20.3
+2024-08-12T14:52:39,10.0.0.1,404 Not Found on CONNECT /uploads/file1.jpg by john using PostmanRuntime/7.26.8,http_request,medium,john,CONNECT,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:52:40,198.51.100.2,403 Forbidden on DELETE /login by user using curl/7.68.0,http_request,medium,user,DELETE,/login,curl/7.68.0
+2024-08-12T14:52:41,198.51.100.2,403 Forbidden on POST /login by admin using PostmanRuntime/7.26.8,http_request,medium,admin,POST,/login,PostmanRuntime/7.26.8
+2024-08-12T14:52:42,172.16.0.1,403 Forbidden on OPTIONS /uploads/file1.jpg by guest using Wget/1.20.3,http_request,medium,guest,OPTIONS,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:52:43,172.16.0.150,200 OK on POST /index.html by bob using Python-urllib/3.8,http_request,low,bob,POST,/index.html,Python-urllib/3.8
+2024-08-12T14:52:44,10.0.0.150,403 Forbidden on DELETE /login by user using PostmanRuntime/7.26.8,http_request,medium,user,DELETE,/login,PostmanRuntime/7.26.8
+2024-08-12T14:52:45,198.51.100.2,200 OK on DELETE /admin by root using Wget/1.20.3,http_request,low,root,DELETE,/admin,Wget/1.20.3
+2024-08-12T14:52:46,198.51.100.2,500 Internal Server Error on CONNECT /admin by user using Mozilla/5.0,http_request,high,user,CONNECT,/admin,Mozilla/5.0
+2024-08-12T14:52:47,203.0.113.1,401 Unauthorized on CONNECT /admin by john using Mozilla/5.0,http_request,medium,john,CONNECT,/admin,Mozilla/5.0
+2024-08-12T14:52:48,172.16.0.1,500 Internal Server Error on PUT /uploads/file1.jpg by root using curl/7.68.0,http_request,high,root,PUT,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:52:49,198.51.100.2,401 Unauthorized on DELETE /login by john using Mozilla/5.0,http_request,medium,john,DELETE,/login,Mozilla/5.0
+2024-08-12T14:52:50,172.16.0.150,500 Internal Server Error on DELETE /uploads/file1.jpg by admin using Mozilla/5.0,http_request,high,admin,DELETE,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:52:51,192.168.1.100,XSS attack attempt on /index.html,security_alert,high,admin,POST,/uploads/file1.jpg,N/A
+2024-08-12T14:52:52,198.51.100.2,403 Forbidden on POST /uploads/file1.jpg by john using curl/7.68.0,http_request,medium,john,POST,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:52:53,192.168.1.100,Suspicious file upload detected: /uploads/shell.php,security_alert,high,alice,CONNECT,/api/data,N/A
+2024-08-12T14:52:54,198.51.100.2,401 Unauthorized on PUT /uploads/file1.jpg by bob using curl/7.68.0,http_request,medium,bob,PUT,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:52:55,192.168.1.100,401 Unauthorized on DELETE /uploads/file1.jpg by admin using Wget/1.20.3,http_request,medium,admin,DELETE,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:52:56,172.16.0.150,403 Forbidden on GET /admin by admin using Wget/1.20.3,http_request,medium,admin,GET,/admin,Wget/1.20.3
+2024-08-12T14:52:57,192.168.1.100,200 OK on GET /login by john using Wget/1.20.3,login_success,low,john,GET,/login,Wget/1.20.3
+2024-08-12T14:52:58,192.168.1.1,500 Internal Server Error on CONNECT /login by john using Mozilla/5.0,http_request,high,john,CONNECT,/login,Mozilla/5.0
+2024-08-12T14:52:59,10.0.0.1,403 Forbidden on DELETE /api/data by guest using Mozilla/5.0,http_request,medium,guest,DELETE,/api/data,Mozilla/5.0
+2024-08-12T14:53:00,203.0.113.1,401 Unauthorized on PUT /index.html by guest using PostmanRuntime/7.26.8,http_request,medium,guest,PUT,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:53:01,198.51.100.2,403 Forbidden on CONNECT /api/data by alice using Wget/1.20.3,http_request,medium,alice,CONNECT,/api/data,Wget/1.20.3
+2024-08-12T14:53:02,172.16.0.1,401 Unauthorized on PUT /login by admin using Wget/1.20.3,http_request,medium,admin,PUT,/login,Wget/1.20.3
+2024-08-12T14:53:03,10.0.0.150,500 Internal Server Error on DELETE /admin by user using Wget/1.20.3,http_request,high,user,DELETE,/admin,Wget/1.20.3
+2024-08-12T14:53:04,192.168.1.1,200 OK on OPTIONS /uploads/file1.jpg by root using curl/7.68.0,http_request,low,root,OPTIONS,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:53:05,172.16.0.150,401 Unauthorized on DELETE /index.html by guest using PostmanRuntime/7.26.8,http_request,medium,guest,DELETE,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:53:06,172.16.0.1,500 Internal Server Error on OPTIONS /uploads/file1.jpg by john using Mozilla/5.0,http_request,high,john,OPTIONS,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:53:07,172.16.0.1,200 OK on CONNECT /uploads/file1.jpg by john using Wget/1.20.3,http_request,low,john,CONNECT,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:53:08,198.51.100.2,403 Forbidden on PUT /uploads/file1.jpg by admin using PostmanRuntime/7.26.8,http_request,medium,admin,PUT,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:53:09,10.0.0.1,500 Internal Server Error on GET /uploads/file1.jpg by user using curl/7.68.0,http_request,high,user,GET,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:53:10,10.0.0.1,500 Internal Server Error on OPTIONS /index.html by alice using Python-urllib/3.8,http_request,high,alice,OPTIONS,/index.html,Python-urllib/3.8
+2024-08-12T14:53:11,203.0.113.1,401 Unauthorized on GET /api/data by user using Mozilla/5.0,http_request,medium,user,GET,/api/data,Mozilla/5.0
+2024-08-12T14:53:12,198.51.100.2,401 Unauthorized on GET /api/data by john using Mozilla/5.0,http_request,medium,john,GET,/api/data,Mozilla/5.0
+2024-08-12T14:53:13,192.168.1.1,401 Unauthorized on GET /admin by root using Python-urllib/3.8,http_request,medium,root,GET,/admin,Python-urllib/3.8
+2024-08-12T14:53:14,172.16.0.1,404 Not Found on POST /index.html by john using Mozilla/5.0,http_request,medium,john,POST,/index.html,Mozilla/5.0
+2024-08-12T14:53:15,10.0.0.150,500 Internal Server Error on OPTIONS /uploads/file1.jpg by admin using Wget/1.20.3,http_request,high,admin,OPTIONS,/uploads/file1.jpg,Wget/1.20.3
+2024-08-12T14:53:16,198.51.100.2,404 Not Found on CONNECT /api/data by guest using PostmanRuntime/7.26.8,http_request,medium,guest,CONNECT,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:53:17,192.168.1.1,500 Internal Server Error on PUT /admin by root using curl/7.68.0,http_request,high,root,PUT,/admin,curl/7.68.0
+2024-08-12T14:53:18,172.16.0.150,500 Internal Server Error on OPTIONS /index.html by user using PostmanRuntime/7.26.8,http_request,high,user,OPTIONS,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:53:19,203.0.113.1,401 Unauthorized on OPTIONS /api/data by alice using Wget/1.20.3,http_request,medium,alice,OPTIONS,/api/data,Wget/1.20.3
+2024-08-12T14:53:20,172.16.0.150,200 OK on DELETE /uploads/file1.jpg by john using PostmanRuntime/7.26.8,http_request,low,john,DELETE,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:53:21,172.16.0.150,Brute force attack detected from 203.0.113.1,security_alert,high,root,POST,/api/data,N/A
+2024-08-12T14:53:22,192.168.1.1,403 Forbidden on OPTIONS /index.html by bob using PostmanRuntime/7.26.8,http_request,medium,bob,OPTIONS,/index.html,PostmanRuntime/7.26.8
+2024-08-12T14:53:23,192.168.1.1,500 Internal Server Error on OPTIONS /api/data by user using curl/7.68.0,http_request,high,user,OPTIONS,/api/data,curl/7.68.0
+2024-08-12T14:53:24,203.0.113.1,404 Not Found on POST /api/data by user using Python-urllib/3.8,http_request,medium,user,POST,/api/data,Python-urllib/3.8
+2024-08-12T14:53:25,10.0.0.1,500 Internal Server Error on OPTIONS /uploads/file1.jpg by guest using Python-urllib/3.8,http_request,high,guest,OPTIONS,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:53:26,192.168.1.1,500 Internal Server Error on CONNECT /login by root using PostmanRuntime/7.26.8,http_request,high,root,CONNECT,/login,PostmanRuntime/7.26.8
+2024-08-12T14:53:27,192.168.1.100,401 Unauthorized on PUT /admin by guest using PostmanRuntime/7.26.8,http_request,medium,guest,PUT,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:53:28,203.0.113.1,403 Forbidden on POST /login by user using Mozilla/5.0,http_request,medium,user,POST,/login,Mozilla/5.0
+2024-08-12T14:53:29,192.168.1.100,500 Internal Server Error on OPTIONS /uploads/file1.jpg by root using Mozilla/5.0,http_request,high,root,OPTIONS,/uploads/file1.jpg,Mozilla/5.0
+2024-08-12T14:53:30,192.168.1.100,XSS attack attempt on /index.html,security_alert,high,alice,GET,/admin,N/A
+2024-08-12T14:53:31,192.168.1.1,404 Not Found on DELETE /uploads/file1.jpg by alice using Python-urllib/3.8,http_request,medium,alice,DELETE,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:53:32,10.0.0.150,500 Internal Server Error on POST /api/data by alice using PostmanRuntime/7.26.8,http_request,high,alice,POST,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:53:33,192.168.1.100,500 Internal Server Error on PUT /api/data by alice using Wget/1.20.3,http_request,high,alice,PUT,/api/data,Wget/1.20.3
+2024-08-12T14:53:34,172.16.0.150,Brute force attack detected from 203.0.113.1,security_alert,high,guest,DELETE,/admin,N/A
+2024-08-12T14:53:35,172.16.0.1,200 OK on GET /admin by alice using curl/7.68.0,http_request,low,alice,GET,/admin,curl/7.68.0
+2024-08-12T14:53:36,192.168.1.1,404 Not Found on POST /uploads/file1.jpg by user using PostmanRuntime/7.26.8,http_request,medium,user,POST,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:53:37,10.0.0.150,500 Internal Server Error on POST /admin by root using curl/7.68.0,http_request,high,root,POST,/admin,curl/7.68.0
+2024-08-12T14:53:38,10.0.0.150,401 Unauthorized on DELETE /login by bob using Wget/1.20.3,http_request,medium,bob,DELETE,/login,Wget/1.20.3
+2024-08-12T14:53:39,192.168.1.100,200 OK on GET /uploads/file1.jpg by alice using curl/7.68.0,http_request,low,alice,GET,/uploads/file1.jpg,curl/7.68.0
+2024-08-12T14:53:40,10.0.0.150,404 Not Found on POST /login by bob using Wget/1.20.3,http_request,medium,bob,POST,/login,Wget/1.20.3
+2024-08-12T14:53:41,192.168.1.100,403 Forbidden on POST /admin by guest using Wget/1.20.3,http_request,medium,guest,POST,/admin,Wget/1.20.3
+2024-08-12T14:53:42,10.0.0.1,403 Forbidden on OPTIONS /index.html by root using Wget/1.20.3,http_request,medium,root,OPTIONS,/index.html,Wget/1.20.3
+2024-08-12T14:53:43,192.168.1.100,403 Forbidden on CONNECT /login by admin using Python-urllib/3.8,http_request,medium,admin,CONNECT,/login,Python-urllib/3.8
+2024-08-12T14:53:44,198.51.100.2,404 Not Found on CONNECT /admin by root using Mozilla/5.0,http_request,medium,root,CONNECT,/admin,Mozilla/5.0
+2024-08-12T14:53:45,172.16.0.1,200 OK on DELETE /index.html by alice using Python-urllib/3.8,http_request,low,alice,DELETE,/index.html,Python-urllib/3.8
+2024-08-12T14:53:46,172.16.0.150,200 OK on POST /api/data by alice using PostmanRuntime/7.26.8,http_request,low,alice,POST,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:53:47,198.51.100.2,401 Unauthorized on OPTIONS /api/data by root using curl/7.68.0,http_request,medium,root,OPTIONS,/api/data,curl/7.68.0
+2024-08-12T14:53:48,192.168.1.100,XSS attack attempt on /index.html,security_alert,high,alice,GET,/api/data,N/A
+2024-08-12T14:53:49,172.16.0.150,SQL Injection attempt on /login,security_alert,high,root,GET,/api/data,N/A
+2024-08-12T14:53:50,172.16.0.150,401 Unauthorized on POST /login by bob using Wget/1.20.3,http_request,medium,bob,POST,/login,Wget/1.20.3
+2024-08-12T14:53:51,192.168.1.100,404 Not Found on CONNECT /uploads/file1.jpg by root using PostmanRuntime/7.26.8,http_request,medium,root,CONNECT,/uploads/file1.jpg,PostmanRuntime/7.26.8
+2024-08-12T14:53:52,203.0.113.1,403 Forbidden on POST /api/data by root using Python-urllib/3.8,http_request,medium,root,POST,/api/data,Python-urllib/3.8
+2024-08-12T14:53:53,10.0.0.150,Suspicious file upload detected: /uploads/shell.php,security_alert,high,root,PUT,/uploads/file1.jpg,N/A
+2024-08-12T14:53:54,192.168.1.100,200 OK on GET /uploads/file1.jpg by admin using Python-urllib/3.8,http_request,low,admin,GET,/uploads/file1.jpg,Python-urllib/3.8
+2024-08-12T14:53:55,198.51.100.2,401 Unauthorized on DELETE /login by user using PostmanRuntime/7.26.8,http_request,medium,user,DELETE,/login,PostmanRuntime/7.26.8
+2024-08-12T14:53:56,198.51.100.2,401 Unauthorized on PUT /login by alice using Mozilla/5.0,http_request,medium,alice,PUT,/login,Mozilla/5.0
+2024-08-12T14:53:57,198.51.100.2,404 Not Found on PUT /api/data by root using Wget/1.20.3,http_request,medium,root,PUT,/api/data,Wget/1.20.3
+2024-08-12T14:53:58,172.16.0.1,404 Not Found on PUT /api/data by bob using Wget/1.20.3,http_request,medium,bob,PUT,/api/data,Wget/1.20.3
+2024-08-12T14:53:59,198.51.100.2,401 Unauthorized on CONNECT /admin by admin using PostmanRuntime/7.26.8,http_request,medium,admin,CONNECT,/admin,PostmanRuntime/7.26.8
+2024-08-12T14:54:00,10.0.0.150,SQL Injection attempt on /login,security_alert,high,john,POST,/index.html,N/A
+2024-08-12T14:54:01,10.0.0.1,DDoS attack pattern detected from 198.51.100.2,security_alert,high,root,CONNECT,/uploads/file1.jpg,N/A
+2024-08-12T14:54:02,203.0.113.1,Suspicious file upload detected: /uploads/shell.php,security_alert,high,alice,PUT,/uploads/file1.jpg,N/A
+2024-08-12T14:54:03,172.16.0.150,401 Unauthorized on DELETE /api/data by alice using PostmanRuntime/7.26.8,http_request,medium,alice,DELETE,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:54:04,172.16.0.150,404 Not Found on POST /admin by root using Mozilla/5.0,http_request,medium,root,POST,/admin,Mozilla/5.0
+2024-08-12T14:54:05,172.16.0.1,500 Internal Server Error on PUT /index.html by bob using curl/7.68.0,http_request,high,bob,PUT,/index.html,curl/7.68.0
+2024-08-12T14:54:06,192.168.1.100,403 Forbidden on POST /api/data by user using PostmanRuntime/7.26.8,http_request,medium,user,POST,/api/data,PostmanRuntime/7.26.8
+2024-08-12T14:54:07,192.168.1.100,404 Not Found on CONNECT /uploads/file1.jpg by alice using Python-urllib/3.8,http_request,medium,alice,CONNECT,/uploads/file1.jpg,Python-urllib/3.8
