@@ -35,8 +35,8 @@ Log Ingestion → Preprocessing → Vectorization → Query Processing → Inter
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/soc-log-rag.git
-cd soc-log-rag
+git clone https://github.com/MuhamedAyoub/RealTime-RAG-CyberSecurity_Analyst.git
+cd RealTime-RAG-CyberSecurity_Analyst
 
 # Create and activate virtual environment
 python -m venv venv
