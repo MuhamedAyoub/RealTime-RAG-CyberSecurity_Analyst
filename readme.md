@@ -45,13 +45,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Setup PostgreSQL with pgVector
-# Follow instructions in setup/pgvector_setup.md
 
-# Setup Elasticsearch
-# Follow instructions in setup/elasticsearch_setup.md
 ```
-### Run Docker Compose
+#### Setup your Docker Compose for EFK stack and pgVector
 
 ```bash
 docker-compose up -d
