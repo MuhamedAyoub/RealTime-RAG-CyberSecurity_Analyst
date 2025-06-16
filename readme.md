@@ -119,9 +119,7 @@ soc-log-rag/
 - Secure storage with encrypted connections
 - Bias-aware response generation
 
-## License
 
-[MIT License](LICENSE)
 
 ## Author
 
